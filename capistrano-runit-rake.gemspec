@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.version       = '0.2.0'
   spec.authors       = ["Alexander Simonov"]
   spec.email         = ["alex@simonov.me"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Capistrano3 tasks to manage rake tasks via runit supervisor.}
+  spec.description   = %q{Capistrano3 tasks to manage rake tasks via runit supervisor.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
