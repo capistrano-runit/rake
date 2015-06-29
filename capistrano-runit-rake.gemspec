@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.version       = '0.2.0'
   spec.authors       = ["Alexander Simonov"]
   spec.email         = ["alex@simonov.me"]
-  spec.summary       = %q{Capistrano3 tasks to manage rake tasks via runit supervisor.}
-  spec.description   = %q{Capistrano3 tasks to manage rake tasks via runit supervisor.}
-  spec.homepage      = ""
+  spec.summary       = %q{Capistrano3 tasks for manage long running rake tasks or daemons via runit supervisor.}
+  spec.description   = %q{Capistrano3 tasks for manage long running rake tasks or daemons via runit supervisor.}
+  spec.homepage      = "https://github.com/capistrano-runit/rake"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_runtime_dependency 'capistrano-runit-core', '~> 0.1.0'
+  spec.add_runtime_dependency 'capistrano-runit-core', '~> 0.2.0'
 end

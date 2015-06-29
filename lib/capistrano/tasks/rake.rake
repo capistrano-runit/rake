@@ -1,5 +1,4 @@
 include ::Capistrano::Runit
-require 'pry'
 
 namespace :load do
   task :defaults do
